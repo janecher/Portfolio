@@ -111,10 +111,14 @@ a:active {
     .introduction{
         margin-left: 0px;
     }
+    .nav li{
+        width: 10%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .travel img{
         width: 70%;
     }
+    
 }
