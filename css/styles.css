@@ -81,12 +81,21 @@ a{
     color: black;
 }
 
+span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .nav a{
     color: white;
 }
 
-a:link {
+.nav a:link{
     text-decoration: none;
+}
+
+a:link {
+    text-decoration: underline;
 }
 
 a:visited {
@@ -120,7 +129,4 @@ a:active {
     .nav li{
         font-size: 12px;
     }  
-    a:link{
-        text-decoration: underline;
-    }
 }
