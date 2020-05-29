@@ -13,31 +13,49 @@ h1{
     margin: 0px;
 }
 
-.nav{
+ul.nav {
+    margin: 0px;
+    padding: 30px;
+    color: white;
     background-color:#0F46C6;
-    padding-top: 0px;
-    padding-left: 0px;
-}
-
-ul {
-    margin-top: 0px;
+    padding-bottom: 40px;
 }
 
 .nav li{
     float: left;
     list-style: none;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    background-color:#0F46C6;
     width: 20%;
     text-align: center;
     margin: 0px;
 }
 
+.main{
+    padding: 10%;
+}
+
+img{
+    width: 20%;
+    height: auto;
+    border: 3px solid #ccc;
+    background: #eee;
+    margin: auto;
+    padding: 15px 25px;
+}
+
+.home img{
+    float: left;
+}
+
+.home p {
+    padding-left: 30%;
+    line-height: 1.6;
+}
+
+.nav a{
+    color: white;
+}
 a:link {
     text-decoration: none;
-    color: white;
 }
 a:visited {
     text-decoration: none;
