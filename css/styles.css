@@ -118,6 +118,9 @@ a:active {
         width: 70%;
     }
     .nav li{
-        font-size: 15px;
+        font-size: 12px;
     }  
+    a:link{
+        text-decoration: underline;
+    }
 }
