@@ -67,6 +67,15 @@ div.section{
     margin-top: 0px;
 }
 
+ol li{
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+ol li a{
+    color: black;
+}
+
 .nav a{
     color: white;
 }
