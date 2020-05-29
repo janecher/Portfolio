@@ -10,6 +10,7 @@ Webpage of Evgeniya Chernaya portfolio.
 
 ## Setup/Installation Requirements
 
+* Use the link: https://janecher.github.io/Portfolio/index.html
 * Clone/download the files from the repository
 * Double click on the index.html file
 * See the result in your browser
