@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
 }
 
 h1{
@@ -29,8 +30,15 @@ ul.nav {
     margin: 0px;
 }
 
+.education li{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
 .main{
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 img{
@@ -42,13 +50,21 @@ img{
     padding: 15px 25px;
 }
 
-.home img{
+.section img{
     float: left;
 }
 
-.home p {
+div.section{
+    clear: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+    border-bottom: #ccc solid 3px;
+}
+
+.introduction{
     padding-left: 30%;
-    line-height: 1.6;
+    margin-top: 0px;
 }
 
 .nav a{
