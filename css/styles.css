@@ -76,6 +76,12 @@ ol li a{
     color: black;
 }
 
+.travel img{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 25%;
+}
+
 .nav a{
     color: white;
 }
@@ -90,4 +96,16 @@ a:hover {
 }
 a:active {
     text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .travel img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .travel img{
+        width: 70%;
+    }
 }
